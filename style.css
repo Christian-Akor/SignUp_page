@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #0075FF;
+    font-family: outfit, sans-serif;
+}
+
+.container {
+    display: flex;
+    height: 60%;
+    width: 80%;
+    max-width: 900px;
+    background: #FFFFFF;
+    overflow: hidden;
+    border-radius: 40px;
+    margin: 10px;
+}
+
+.form-container {
+    width: 50%;
+    padding: 70px;
+}
+
+.form-container h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.input-group {
+    width: 100%;
+    height: 50px;
+    top: 586px;
+    left: 375px;
+    gap: 0px;
+    margin-bottom: 18px;
+    border-radius: 40px;
+   
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 17px;
+    border: 1px solid #ccc;
+    border-radius: 40px;
+    box-shadow: 3px 3px 15px 0px #0075FF33;
+}
+
+.terms {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.terms input {
+    margin-right: 10px;
+}
+
+.terms label {
+    color: #333;
+}
+
+.terms a {
+    color: #007bff;
+    text-decoration: none;
+
+}
+
+.terms a:hover {
+    text-decoration: underline;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 40px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    background: linear-gradient(90.1deg, #0075FF 0.09%, #0F46D2 52.6%);
+    height: 65px;
+    top: 716px;
+    left: 293px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+p {
+    margin: 10px;
+    text-align: center;
+}
+
+p a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
+.welcome {
+    width: 50%;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(180deg, #197BEE 0%, #0F46D2 100%);
+    padding: 6%;
+}
+
+.welcome h2 {
+    font-family: Outfit;
+    font-size: 47px;
+    font-weight: 700;
+    line-height: 59.22px;
+    text-align: left;
+}
+
+::placeholder {
+    color: #0075FF;
+}
